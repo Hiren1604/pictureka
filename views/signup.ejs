@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="./auth.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-box-left">
+            <img src="./assets/images/logo.webp" alt="logo" />
+        </div>
+        <div class="container-box-right">
+            <form action="/signup" method="post">
+                <h1 class="heading">Create An Account</h1>
+                <div class="details-container">
+                    <input type="text" id="name" name="username" placeholder="Enter Username" required autocomplete="off"/>
+                    <!-- <input type="email" id="email" placeholder="Enter Email" /> -->
+                    <input type="password" id="password" name="password" placeholder="Create Password" />
+                </div>
+                <button Sign-Up class="sign-up" type="submit">Sign-Up</button>
+                <a href="/">Already have an account?</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
